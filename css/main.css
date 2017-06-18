@@ -1,0 +1,485 @@
+
+
+/* start main rules */
+body{
+   
+     }
+
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+/* end main rules */
+
+/* start header */
+header{
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    height: 430px;
+    width: 100%;
+    overflow: hidden;
+
+}
+header .inheader{
+    margin: 200px 0 20px  0;
+}
+header .inheader h1{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+header .inheader ul{
+    margin-left: 230px;
+    list-style: none;
+    overflow: hidden;
+}
+header .inheader ul li{
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    background-color: transparent;
+}
+header .inheader ul li.active{
+    color: #fff;
+   border: 1.5px solid #fff;
+    text-decoration: underline;
+}
+header .inheader ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+header .inheader ul li:hover{
+    color:#fff;
+    background-color: brown;
+}
+/*End Header*/
+/*Start Section1*/
+.section1{
+    overflow: hidden;
+}
+.section1 h1{
+    font-size: 40px;
+    color: #777;
+}
+.section1 .sec11{
+    float: left;
+    width: 60%;
+    margin: 30px 2% 30px 0;
+}
+.section1 .sec11 span{
+    color: brown;
+}
+.section1 .sec12{
+    float: left;
+    width: 36%;
+    margin: 60px 0 30px 2%;
+    overflow: hidden;
+}
+.section1 .sec12 h3{
+    padding-bottom: 10px;
+}
+.section1 .sec12 .insec12{
+    overflow: hidden;
+  
+    height: 30%;
+    padding: 7px;
+    margin: 1.5% 0;
+    box-shadow: 0px 2px 6px 0px #aaa;
+}
+.section1 .sec12 .insec12 img{
+    float: left;
+    width: 25%;
+    margin: 0 5% 0 0 ;
+}
+.section1 .sec12 .insec12 p{
+    float: left;
+    width: 68%;
+    margin: 0 0 0 2%;
+}
+/*.section1 .sec12 #Content1, #Content2 {
+    border-bottom: 3px solid #aaa; 
+    margin-bottom:10px;
+}*/
+
+
+/*End section1*/
+.section2{
+    background-color: #eee;
+    box-shadow: 0px 2px 22px 0px #999 inset;
+}
+.holder{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.section2 .holder .insec2{
+    float: left;
+    width: 31%;
+    margin: 30px 1%;
+}
+.section2 .holder .insec2 h3{
+    font-family: cursive;
+
+    padding: 20px 0;
+}
+.section2 .holder .insec2 img{
+    border: 5px solid #eee;
+    box-shadow:  0px 3px 4px 1px #aaa;
+} 
+.section2 .holder .insec2 p{
+    font-size: 18px solid #999;
+ 
+    padding: 20px 65px 10px 0;
+}
+.section2 .holder .insec2 button{
+    padding: 10px 15px;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 25px;
+    border: 1.5px #fff solid;
+    margin-bottom: 40px;
+    
+}
+/*End Section 2*/
+/*Start Section 3*/
+.section3{
+    overflow: hidden;
+    background-color: #141414;
+    color: #777;
+}
+.section3 .content {
+   
+    box-shadow: 1px 1px 10px 0px inset;
+    margin: 80px 20px 40px 20px;
+    width: 30%;
+    float: left;
+    background-color: #711;
+}
+.section3 .content h2{
+    padding-left: 40px;
+     color: #eee;
+}
+.section3 .content ul{
+    list-style: none;
+}
+.section3 .content ul li{
+     color: #aaa;
+    background-color: #311;
+    box-shadow: 0px 1px 4px -1px #fff inset;
+    margin: 26px 19px 26px -20px;
+    padding: 10px 0 10px 10px;
+}
+
+.section3 .content ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+}
+.section3 .content ul li a:hover{
+    color: #fff;
+}
+.section3 .con {
+    margin-left: 430px;
+}
+.section3 i {
+    color: #333;
+    text-align: center;
+    margin: 10px;
+    
+}
+.section3 i:hover{
+    color: #aaa;
+    -webkit-transform:scale(1.1,1.1) rotate{360deg};
+    -moz-transform:scale(1.1,1.1) rotate{360deg};
+    -o-transform:scale(1.1,1.1) rotate{360deg};
+    transform:scale(1.1,1.1) rotate{360deg};
+}
+.section3 p{
+    font-size: 18px #aaa;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #000;    
+}
+.section3 p span{
+    color: #eee;
+}
+/*End Section 3*/
+
+/*Start Media*/
+
+
+@media (max-width: 690px) { /* mobile and tablet media */
+
+    header .inheader {
+        width: 600px;
+        margin-top: 183px;
+    }
+
+    header .inheader ul{margin-left: 18px;}
+   header .inheader ul li {
+    padding: 10px;
+    font-size: 11px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 25px;
+
+        border-radius: 25px;
+    }
+    
+    
+    
+    .section1 h1{
+        padding-top: 20px;
+        text-align: center;
+    font-size: 32px;
+    }
+    .section1 .sec11{
+        
+        margin:18px;
+    }
+    .section1 .sec11 img,p{width: 602px;}
+    .section1 .sec12{
+        margin: 30px 0 0 2%;
+        
+    }
+
+    /*End section1*/
+    .section2{
+        overflow: hidden;
+        text-align: center;
+        margin: 20px;
+        background-color: #eee;
+        box-shadow: 0px 2px 22px 0px #999 inset;
+    }
+
+    .section2 .holder .insec2{
+        width: 50%;
+    }
+    .section2 .holder .insec2 img{
+        border: 5px solid #eee;
+        box-shadow:  0px 3px 4px 1px #aaa;
+    } 
+    .section2 .holder .insec2 p{
+        font-size: 18px solid #999;
+            width: 374px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    /*End Section 2*/
+    /*Start Section 3*/
+   
+    .section3 .content {
+        text-align: center;
+        box-shadow: 1px 1px 10px 0px inset;
+        margin: 80px 10px 40px 50px;
+        width: 40%;
+        padding: 20px;
+        float:none;
+    }
+   
+    .section3 .con {
+        margin-left: 127px;
+    }
+    .section3 i {
+        color: #333;
+        text-align: center;
+        margin: 10px;
+
+    }
+ 
+    .section3 p{
+        margin: 10px;  
+    }
+
+    
+}
+
+
+@media (min-width: 691px) and (max-width: 991px) { /* small screen rules */
+
+    .container{
+        width: 780px;
+        margin: 0 auto;
+
+    }
+    
+       header .inheader {
+        width: 800px;
+        margin-top: 183px;
+    }
+    header .inheader ul{margin-left: 110px;}
+    header .inheader ul li {
+    padding: 10px;
+    border-radius: 25px;
+    }
+
+
+    
+    /*Start Section1*/
+   
+    
+        .section1 h1{
+        padding-top: 20px;
+        text-align: center;
+       font-size: 32px;
+    }
+    .section1 .sec11{
+        float: left;
+        width: 60%;
+        margin: 30px 2% 30px 0;
+    }
+    .section1 .sec11 span{
+        color: brown;
+    }
+    .section1 .sec12{
+        float: left;
+        width: 36%;
+        margin: 60px 0 30px 2%;
+        overflow: hidden;
+    }
+    .section1 .sec12 h3{
+        padding-bottom: 10px;
+    }
+    .section1 .sec12 .insec12{
+        overflow: hidden;
+
+        height: 30%;
+        padding: 7px;
+        margin: 1.5% 0;
+        box-shadow: 0px 2px 6px 0px #aaa;
+    }
+    .section1 .sec12 .insec12 img{
+        float: left;
+        width: 25%;
+        margin: 0 5% 0 0 ;
+    }
+    .section1 .sec12 .insec12 p{
+        float: left;
+        width: 68%;
+        margin: 0 0 0 2%;
+    }
+    /*.section1 .sec12 #Content1, #Content2 {
+        border-bottom: 3px solid #aaa; 
+        margin-bottom:10px;
+    }*/
+
+
+    /*End section1*/
+    .section2{
+        background-color: #eee;
+        box-shadow: 0px 2px 22px 0px #999 inset;
+    }
+    .holder{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .section2 .holder .insec2{
+        float: left;
+        width: 31%;
+        margin: 30px 1%;
+    }
+    .section2 .holder .insec2 h3{
+        font-family: cursive;
+
+        padding: 20px 0;
+    }
+    .section2 .holder .insec2 img{
+        border: 5px solid #eee;
+        box-shadow:  0px 3px 4px 1px #aaa;
+    } 
+    .section2 .holder .insec2 p{
+        font-size: 18px solid #999;
+
+        padding: 20px 65px 10px 0;
+    }
+    .section2 .holder .insec2 button{
+        padding: 10px 15px;
+        font-family: cursive;
+        font-size: 20px;
+        background-color: brown;
+        color: #fff;
+        border-radius: 25px;
+        border: 1.5px #fff solid;
+        margin-bottom: 40px;
+
+    }
+    /*End Section 2*/
+    /*Start Section 3*/
+    .section3{
+        overflow: hidden;
+        background-color: #141414;
+        color: #777;
+    }
+    .section3 .content {
+
+        box-shadow: 1px 1px 10px 0px inset;
+        margin: 80px 20px 40px 20px;
+        width: 30%;
+        float: left;
+        background-color: #711;
+    }
+    .section3 .content h2{
+        padding-left: 40px;
+         color: #eee;
+    }
+    .section3 .content ul{
+        list-style: none;
+    }
+    .section3 .content ul li{
+         color: #aaa;
+        background-color: #311;
+        box-shadow: 0px 1px 4px -1px #fff inset;
+        margin: 26px 19px 26px -20px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .section3 .content ul li a {
+        text-decoration: none;
+        color: inherit;
+        padding: 0;
+    }
+    .section3 .content ul li a:hover{
+        color: #fff;
+    }
+    .section3 .con {
+        margin-left: 430px;
+    }
+    .section3 i {
+        color: #333;
+        text-align: center;
+        margin: 10px;
+
+    }
+    
+    
+    
+    
+}
+
+@media (max-width: 992px) and (max-width: 1999px) { /* medium screen rules */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+}
+
+
+
+/*End Media*/

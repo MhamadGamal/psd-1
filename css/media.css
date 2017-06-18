@@ -1,0 +1,124 @@
+/*media query*/
+/******************mobile & tablet****************************/
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+
+   
+    
+      .img-circle{
+            margin: 0 0 10px 125px;
+    }
+    .lead{
+        margin: 10px 40px;
+    }
+    .about .content11{margin: 40px;}
+    .test h1 {
+    margin: 50px 55px 20px 55px;}
+    
+}
+
+    .test h3 {
+    width: 300px;
+    font-size: 22px;
+    margin-left: -125px;
+}
+        .test .lead {
+            width: 475px;
+            font: 15px;
+            margin-left: -190px;
+        }
+
+    .statistics h1 {
+    margin: 50px 20px 20px 20px;
+    }
+    .statistics .itemm{
+        margin: 40px 100px;
+        padding: 40px 20px;
+    }
+
+    .contact-us .content{margin: 40px;}
+    
+    .input-lg {
+    width: 460px;
+    margin: 15px 0 24px 44px;
+    font-size: 16px;}
+  
+
+    .contact-us .btn {
+    margin: 32px 60px 50px 203px;
+    font-size: 18px;
+        width: 150px;
+    }
+
+    .copyright p{font-size: 15px;}    
+    
+}
+
+/****************************small screen************************************/
+/*@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    .navbar-nav li a {
+    padding: 7px;
+    font-size: 15px;
+    }
+    
+    
+          .img-circle{
+            margin: 0 0 10px 125px;
+    }
+    .lead{
+        margin: 10px 40px;
+    }
+    .about .content11{margin: 40px;}
+    .test h1 {
+    margin: 50px 55px 20px 55px;}
+    
+}
+
+    .test h3 {
+    width: 300px;
+    font-size: 22px;
+    margin-left: -125px;
+}
+        .test .lead {
+            width: 475px;
+            font: 15px;
+            margin-left: -190px;
+        }
+
+    .statistics h1 {
+    margin: 50px 20px 20px 20px;
+    }
+    .statistics .itemm{
+        margin: 40px 100px;
+        padding: 40px 20px;
+    }
+
+    .contact-us .content{margin: 40px;}
+    
+    .input-lg {
+    width: 460px;
+    margin: 15px 0 24px 44px;
+    font-size: 16px;}
+  
+
+    .contact-us .btn {
+    margin: 32px 60px 50px 203px;
+    font-size: 18px;
+        width: 150px;
+    }
+
+    .copyright p{font-size: 15px;} 
+
+}*/
+/*******************medium screen******************************/
+@media only screen and (min-width: 992px) and (max-width:1199px){
+    .statistics .itemm
+{
+     margin: 40px 7px;}
+
+}
+/*******************large screen*****************************************/
+@media only screen and (min-width: 1200px) {
+
+
+}
